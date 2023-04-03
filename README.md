@@ -12,4 +12,6 @@ The users can test various algorithms in the simulator using either Python or C+
 
 ![Screenshot from 2023-09-02 21-08-09](https://github.com/AnurajBhaskar47/Micromouse_final/assets/97795939/d792c088-5e2a-48d1-a689-d279f2630fcc)
 
+#### Users can define & test various maze solving algorithms here as an example I have used Bellman-ford Algorithm:
+
 As visible, the entire maze grid is populated with cell distance (w.r.t to the center location). This describes the micro mouse's flood fill algorithm as it follows the path with the greedy approach of going to the next smallest value. The micro mouse must perform a complete graph traversal for this algorithm to function correctly, as shown in the video below.

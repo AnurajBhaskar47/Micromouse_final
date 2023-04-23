@@ -1,0 +1,270 @@
+\hypertarget{classfp_1_1_land_based_tracked}{}\section{fp\+:\+:Land\+Based\+Tracked Class Reference}
+\label{classfp_1_1_land_based_tracked}\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+
+
+A Landbased\+Tracked class..  
+
+
+
+
+{\ttfamily \#include $<$Land\+Based\+Tracked.\+h$>$}
+
+
+
+Inheritance diagram for fp\+:\+:Land\+Based\+Tracked\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{classfp_1_1_land_based_tracked__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fp\+:\+:Land\+Based\+Tracked\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{classfp_1_1_land_based_tracked__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfp_1_1_land_based_tracked_a165b455a487d13eddfd5f015bc579b95}{Land\+Based\+Tracked} (std\+::string name, int x, int y)
+\item 
+\hyperlink{classfp_1_1_land_based_tracked_a0f9489dc8ef0310ced4f2526a610a0e0}{Land\+Based\+Tracked} ()
+\item 
+virtual \hyperlink{classfp_1_1_land_based_tracked_a8d3033324bbc96fde30ce107c1694af3}{$\sim$\+Land\+Based\+Tracked} ()
+\item 
+virtual void \hyperlink{classfp_1_1_land_based_tracked_af537a096f507674b62a9691fad7c6cb7}{Move\+Forward} () override
+\begin{DoxyCompactList}\small\item\em This will move forward. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classfp_1_1_land_based_tracked_aab40e1a48e5142491f02b2936c4cacc3}{Turn\+Left} (int, int) override
+\begin{DoxyCompactList}\small\item\em This function works for Turnleft for tracked robot. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classfp_1_1_land_based_tracked_a619c29950f6c484d3481e31ff01dad3a}{Turn\+Right} (int, int) override
+\begin{DoxyCompactList}\small\item\em This function works for Turn\+Right for tracked robot. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classfp_1_1_land_based_tracked_a3a4fc3c84dd3fcf1928a27af1658680f}{get\+\_\+x} () override
+\begin{DoxyCompactList}\small\item\em This function works as getter for x coordinate. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}{get\+\_\+y} () override
+\begin{DoxyCompactList}\small\item\em This function works as getter for y coordinate. \end{DoxyCompactList}\item 
+virtual char \hyperlink{classfp_1_1_land_based_tracked_acb4201d9ba3660fbdb52bc95cddaa5bf}{Get\+Direction} () override
+\begin{DoxyCompactList}\small\item\em This function is getter function for direction. \end{DoxyCompactList}\item 
+virtual double \hyperlink{classfp_1_1_land_based_tracked_a5c5c280d150b040bd5f862f2f64d83f1}{get\+\_\+speed} () override
+\begin{DoxyCompactList}\small\item\em This function is getter function for spped. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classfp_1_1_land_based_tracked_a89923d6f493b1581a882f531ed6de3ea}{track\+\_\+type}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Landbased\+Tracked class.. 
+
+This class is derived from from the \hyperlink{classfp_1_1_land_based_robot}{Land\+Based\+Robot} base class and it has access to every member function of base class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_a165b455a487d13eddfd5f015bc579b95}\label{classfp_1_1_land_based_tracked_a165b455a487d13eddfd5f015bc579b95}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!Land\+Based\+Tracked@{Land\+Based\+Tracked}}
+\index{Land\+Based\+Tracked@{Land\+Based\+Tracked}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{Land\+Based\+Tracked()}{LandBasedTracked()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily fp\+::\+Land\+Based\+Tracked\+::\+Land\+Based\+Tracked (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+A constructor. A constructor which takes name and x and y as an argument.
+
+A constructor. A constructor which takes name, x, and y as arguments and sets these parameters. \mbox{\Hypertarget{classfp_1_1_land_based_tracked_a0f9489dc8ef0310ced4f2526a610a0e0}\label{classfp_1_1_land_based_tracked_a0f9489dc8ef0310ced4f2526a610a0e0}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!Land\+Based\+Tracked@{Land\+Based\+Tracked}}
+\index{Land\+Based\+Tracked@{Land\+Based\+Tracked}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{Land\+Based\+Tracked()}{LandBasedTracked()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily fp\+::\+Land\+Based\+Tracked\+::\+Land\+Based\+Tracked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A constructor. A constructor with no arguments.
+
+A constructor. A constructor which takes no arguments and initializes name to none and x \& y to 0. \mbox{\Hypertarget{classfp_1_1_land_based_tracked_a8d3033324bbc96fde30ce107c1694af3}\label{classfp_1_1_land_based_tracked_a8d3033324bbc96fde30ce107c1694af3}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!````~Land\+Based\+Tracked@{$\sim$\+Land\+Based\+Tracked}}
+\index{````~Land\+Based\+Tracked@{$\sim$\+Land\+Based\+Tracked}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{$\sim$\+Land\+Based\+Tracked()}{~LandBasedTracked()}}
+{\footnotesize\ttfamily fp\+::\+Land\+Based\+Tracked\+::$\sim$\+Land\+Based\+Tracked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+A destructor. This will destroy the object \hyperlink{classfp_1_1_land_based_tracked}{Land\+Based\+Tracked} after use 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_a5c5c280d150b040bd5f862f2f64d83f1}\label{classfp_1_1_land_based_tracked_a5c5c280d150b040bd5f862f2f64d83f1}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!get\+\_\+speed@{get\+\_\+speed}}
+\index{get\+\_\+speed@{get\+\_\+speed}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{get\+\_\+speed()}{get\_speed()}}
+{\footnotesize\ttfamily virtual double fp\+::\+Land\+Based\+Tracked\+::get\+\_\+speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function is getter function for spped. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_tracked_a5c5c280d150b040bd5f862f2f64d83f1}{get\+\_\+speed()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ char R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}{get\+\_\+y()} is char. 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a68844e9c442d1b293945144dc6c6608c}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_a3a4fc3c84dd3fcf1928a27af1658680f}\label{classfp_1_1_land_based_tracked_a3a4fc3c84dd3fcf1928a27af1658680f}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!get\+\_\+x@{get\+\_\+x}}
+\index{get\+\_\+x@{get\+\_\+x}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{get\+\_\+x()}{get\_x()}}
+{\footnotesize\ttfamily virtual int fp\+::\+Land\+Based\+Tracked\+::get\+\_\+x (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works as getter for x coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_tracked_a3a4fc3c84dd3fcf1928a27af1658680f}{get\+\_\+x()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ void R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_tracked_a3a4fc3c84dd3fcf1928a27af1658680f}{get\+\_\+x()} is integer. 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a3624c5d041de0987c0103c6b01fa9bc6}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}\label{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!get\+\_\+y@{get\+\_\+y}}
+\index{get\+\_\+y@{get\+\_\+y}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{get\+\_\+y()}{get\_y()}}
+{\footnotesize\ttfamily virtual int fp\+::\+Land\+Based\+Tracked\+::get\+\_\+y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works as getter for y coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}{get\+\_\+y()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ void R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}{get\+\_\+y()} is integer. 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_ae742797bee07ac5b92bfe934cbfed6e9}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_acb4201d9ba3660fbdb52bc95cddaa5bf}\label{classfp_1_1_land_based_tracked_acb4201d9ba3660fbdb52bc95cddaa5bf}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!Get\+Direction@{Get\+Direction}}
+\index{Get\+Direction@{Get\+Direction}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{Get\+Direction()}{GetDirection()}}
+{\footnotesize\ttfamily virtual char fp\+::\+Land\+Based\+Tracked\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function is getter function for direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ get\+\_\+\+Direction() F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ char R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_tracked_a09738928390e7e0d33444b6a7cfcc841}{get\+\_\+y()} is char. 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a50841b6e40d4e92832770d26b427fea2}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_af537a096f507674b62a9691fad7c6cb7}\label{classfp_1_1_land_based_tracked_af537a096f507674b62a9691fad7c6cb7}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!Move\+Forward@{Move\+Forward}}
+\index{Move\+Forward@{Move\+Forward}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{Move\+Forward()}{MoveForward()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Tracked\+::\+Move\+Forward (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This will move forward. 
+
+\hypertarget{main_8cpp_Description}{}\subsection{Description}\label{main_8cpp_Description}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ Move\+Forward F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ two integers 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a5df828c5d6c1f7fb4c7b68f53d9c6080}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_aab40e1a48e5142491f02b2936c4cacc3}\label{classfp_1_1_land_based_tracked_aab40e1a48e5142491f02b2936c4cacc3}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!Turn\+Left@{Turn\+Left}}
+\index{Turn\+Left@{Turn\+Left}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{Turn\+Left()}{TurnLeft()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Tracked\+::\+Turn\+Left (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works for Turnleft for tracked robot. 
+
+This will turn robot left given as co-\/ordinates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_tracked_aab40e1a48e5142491f02b2936c4cacc3}{Turn\+Left()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ integers R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_tracked_aab40e1a48e5142491f02b2936c4cacc3}{Turn\+Left()} is void.\hypertarget{main_8cpp_Description}{}\subsection{Description}\label{main_8cpp_Description}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ Turn\+Left F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ two integers 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a359e1012e9093475b7a1b0d38e41a118}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_a619c29950f6c484d3481e31ff01dad3a}\label{classfp_1_1_land_based_tracked_a619c29950f6c484d3481e31ff01dad3a}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!Turn\+Right@{Turn\+Right}}
+\index{Turn\+Right@{Turn\+Right}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{Turn\+Right()}{TurnRight()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Tracked\+::\+Turn\+Right (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works for Turn\+Right for tracked robot. 
+
+This will just ouput that appropriate function are called or not.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_tracked_a619c29950f6c484d3481e31ff01dad3a}{Turn\+Right()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ integers R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_tracked_a619c29950f6c484d3481e31ff01dad3a}{Turn\+Right()} is void.\hypertarget{main_8cpp_Description}{}\subsection{Description}\label{main_8cpp_Description}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ Turn\+Right F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ two integers 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a7360e4084bc5254f72ab0d3612644907}{fp\+::\+Land\+Based\+Robot}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classfp_1_1_land_based_tracked_a89923d6f493b1581a882f531ed6de3ea}\label{classfp_1_1_land_based_tracked_a89923d6f493b1581a882f531ed6de3ea}} 
+\index{fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}!track\+\_\+type@{track\+\_\+type}}
+\index{track\+\_\+type@{track\+\_\+type}!fp\+::\+Land\+Based\+Tracked@{fp\+::\+Land\+Based\+Tracked}}
+\subsubsection{\texorpdfstring{track\+\_\+type}{track\_type}}
+{\footnotesize\ttfamily std\+::string fp\+::\+Land\+Based\+Tracked\+::track\+\_\+type\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Land\+Based\+Tracked/\hyperlink{_land_based_tracked_8h}{Land\+Based\+Tracked.\+h}\item 
+src/\+Land\+Based\+Tracked/\hyperlink{_land_based_tracked_8cpp}{Land\+Based\+Tracked.\+cpp}\end{DoxyCompactItemize}

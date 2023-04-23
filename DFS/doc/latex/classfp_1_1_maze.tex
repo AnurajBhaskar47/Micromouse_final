@@ -1,0 +1,329 @@
+\hypertarget{classfp_1_1_maze}{}\section{fp\+:\+:Maze Class Reference}
+\label{classfp_1_1_maze}\index{fp\+::\+Maze@{fp\+::\+Maze}}
+
+
+{\ttfamily \#include $<$M\+A\+Z\+E.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfp_1_1_maze_af090b97595ed34cad9f7c8de9e79a127}{Maze} ()
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classfp_1_1_maze_a9771da7e8af1d23454f9b5cb1986462b}{Maze\+Design} (int x, int y, char dir)
+\begin{DoxyCompactList}\small\item\em this is for the design of the a maze based on the co-\/ordinates given here in x,y parameter. \end{DoxyCompactList}\item 
+void \hyperlink{classfp_1_1_maze_a7aed0c5288e08efda078782f23bc8368}{Maze\+Construct} ()
+\item 
+bool \hyperlink{classfp_1_1_maze_a6cc110e308818595983345285245c33f}{South\+Wall\+Present} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em to check at specific location in maze is wall or space in south direction. \end{DoxyCompactList}\item 
+bool \hyperlink{classfp_1_1_maze_af072147db014d3955ba343cd8250d5f1}{North\+Wall\+Present} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em to check at specific location in maze is wall or space in north direction. \end{DoxyCompactList}\item 
+bool \hyperlink{classfp_1_1_maze_a62c5692927ef95bafad2f0b7ae95a83e}{West\+Wall\+Present} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em to check at specific location in maze is wall or space in west direction. \end{DoxyCompactList}\item 
+bool \hyperlink{classfp_1_1_maze_aed00bd0afedc44d52c1949dd769e68c2}{East\+Wall\+Present} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em function is called wether the wall is present in the east direction \end{DoxyCompactList}\item 
+\hyperlink{classfp_1_1_maze_ae5f5b10dd66d6a994a40da62fef39577}{$\sim$\+Maze} ()
+\begin{DoxyCompactList}\small\item\em to check at specific location in maze is wall or space in east direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classfp_1_1_maze_a856f8a1002fdad16684454cb6006646a}{Wall\+DetectedS} \mbox{[}16\mbox{]}\mbox{[}16\mbox{]}
+\item 
+int \hyperlink{classfp_1_1_maze_aa3538c38fcd8c6cddf3046ec3a33ab2e}{Wall\+DetectedN} \mbox{[}16\mbox{]}\mbox{[}16\mbox{]}
+\item 
+int \hyperlink{classfp_1_1_maze_ad93e8c8272e3b2f9f693238a95dc38c1}{Wall\+DetectedW} \mbox{[}16\mbox{]}\mbox{[}16\mbox{]}
+\item 
+int \hyperlink{classfp_1_1_maze_aaa20ddff203607af6ee3c95a00e2d2bf}{Wall\+DetectedE} \mbox{[}16\mbox{]}\mbox{[}16\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Group-\/9 E\+N\+P\+M809Y 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+03/12/19 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classfp_1_1_maze_af090b97595ed34cad9f7c8de9e79a127}\label{classfp_1_1_maze_af090b97595ed34cad9f7c8de9e79a127}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Maze@{Maze}}
+\index{Maze@{Maze}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Maze()}{Maze()}}
+{\footnotesize\ttfamily fp\+::\+Maze\+::\+Maze (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A constructor. 
+
+This is declareation for class maze which are wrapped up in the fp namespace.
+
+A constructor that takes no arguments.\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+We have derived a lot of functions from the api file like set colors and set\+\_\+text in the maze file. Basically from the derived api untill we meet the wall we craete the maze here. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{classfp_1_1_maze_af090b97595ed34cad9f7c8de9e79a127_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_maze_ae5f5b10dd66d6a994a40da62fef39577}\label{classfp_1_1_maze_ae5f5b10dd66d6a994a40da62fef39577}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!````~Maze@{$\sim$\+Maze}}
+\index{````~Maze@{$\sim$\+Maze}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{$\sim$\+Maze()}{~Maze()}}
+{\footnotesize\ttfamily fp\+::\+Maze\+::$\sim$\+Maze (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+to check at specific location in maze is wall or space in east direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+intA destructor 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classfp_1_1_maze_aed00bd0afedc44d52c1949dd769e68c2}\label{classfp_1_1_maze_aed00bd0afedc44d52c1949dd769e68c2}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!East\+Wall\+Present@{East\+Wall\+Present}}
+\index{East\+Wall\+Present@{East\+Wall\+Present}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{East\+Wall\+Present()}{EastWallPresent()}}
+{\footnotesize\ttfamily bool fp\+::\+Maze\+::\+East\+Wall\+Present (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+function is called wether the wall is present in the east direction 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false based on the api function Wall\+Detected. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_maze_aed00bd0afedc44d52c1949dd769e68c2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_maze_a7aed0c5288e08efda078782f23bc8368}\label{classfp_1_1_maze_a7aed0c5288e08efda078782f23bc8368}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Maze\+Construct@{Maze\+Construct}}
+\index{Maze\+Construct@{Maze\+Construct}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Maze\+Construct()}{MazeConstruct()}}
+{\footnotesize\ttfamily void fp\+::\+Maze\+::\+Maze\+Construct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classfp_1_1_maze_a9771da7e8af1d23454f9b5cb1986462b}\label{classfp_1_1_maze_a9771da7e8af1d23454f9b5cb1986462b}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Maze\+Design@{Maze\+Design}}
+\index{Maze\+Design@{Maze\+Design}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Maze\+Design()}{MazeDesign()}}
+{\footnotesize\ttfamily void fp\+::\+Maze\+::\+Maze\+Design (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{char}]{dir }\end{DoxyParamCaption})}
+
+
+
+this is for the design of the a maze based on the co-\/ordinates given here in x,y parameter. 
+
+this is for the design of the amze based on the co-\/ordinates given here in x,y parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x-\/} & x co-\/ordinate \\
+\hline
+{\em y} & -\/y co-\/ordinate \\
+\hline
+{\em dir} & a char to set up direction from N,E,W,S \\
+\hline
+\end{DoxyParams}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+A very simple wrapped function(in fp namespace to construct a maze which will with given co-\/ordinates desihn a maze and detailed explanation is in implementation file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x-\/} & x co-\/ordinate \\
+\hline
+{\em y} & -\/y co-\/ordinate \\
+\hline
+{\em dir} & a char to set up direction from N,E,W,S \\
+\hline
+\end{DoxyParams}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+A very simple wrapped function(in fp namespace in header file) to design a maze Here for each direction we check for the wallchoice and if the from the api header file we are not meeting to wall we are good to go and it writes a maze and that is why we have 4 different condition for 4 different directions for each option(\+N,\+S,\+E,\+W). and if we met true than we write it in maze. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classfp_1_1_maze_a9771da7e8af1d23454f9b5cb1986462b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_maze_a9771da7e8af1d23454f9b5cb1986462b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_maze_af072147db014d3955ba343cd8250d5f1}\label{classfp_1_1_maze_af072147db014d3955ba343cd8250d5f1}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!North\+Wall\+Present@{North\+Wall\+Present}}
+\index{North\+Wall\+Present@{North\+Wall\+Present}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{North\+Wall\+Present()}{NorthWallPresent()}}
+{\footnotesize\ttfamily bool fp\+::\+Maze\+::\+North\+Wall\+Present (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+to check at specific location in maze is wall or space in north direction. 
+
+function is called wether the wall is present in the north direction.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false based on the api function Wall\+Detected. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_maze_af072147db014d3955ba343cd8250d5f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_maze_a6cc110e308818595983345285245c33f}\label{classfp_1_1_maze_a6cc110e308818595983345285245c33f}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!South\+Wall\+Present@{South\+Wall\+Present}}
+\index{South\+Wall\+Present@{South\+Wall\+Present}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{South\+Wall\+Present()}{SouthWallPresent()}}
+{\footnotesize\ttfamily bool fp\+::\+Maze\+::\+South\+Wall\+Present (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+to check at specific location in maze is wall or space in south direction. 
+
+function is called wether the wall is present in the south direction
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false based on the api function Wall\+Detected. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_maze_a6cc110e308818595983345285245c33f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_maze_a62c5692927ef95bafad2f0b7ae95a83e}\label{classfp_1_1_maze_a62c5692927ef95bafad2f0b7ae95a83e}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!West\+Wall\+Present@{West\+Wall\+Present}}
+\index{West\+Wall\+Present@{West\+Wall\+Present}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{West\+Wall\+Present()}{WestWallPresent()}}
+{\footnotesize\ttfamily bool fp\+::\+Maze\+::\+West\+Wall\+Present (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+to check at specific location in maze is wall or space in west direction. 
+
+function is called wether the wall is present in the west direction
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false based on the api function Wall\+Detected. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_maze_a62c5692927ef95bafad2f0b7ae95a83e_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classfp_1_1_maze_aaa20ddff203607af6ee3c95a00e2d2bf}\label{classfp_1_1_maze_aaa20ddff203607af6ee3c95a00e2d2bf}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Wall\+DetectedE@{Wall\+DetectedE}}
+\index{Wall\+DetectedE@{Wall\+DetectedE}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Wall\+DetectedE}{WallDetectedE}}
+{\footnotesize\ttfamily int fp\+::\+Maze\+::\+Wall\+DetectedE\mbox{[}16\mbox{]}\mbox{[}16\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+a matrix to check wether wall detected in east direction \mbox{\Hypertarget{classfp_1_1_maze_aa3538c38fcd8c6cddf3046ec3a33ab2e}\label{classfp_1_1_maze_aa3538c38fcd8c6cddf3046ec3a33ab2e}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Wall\+DetectedN@{Wall\+DetectedN}}
+\index{Wall\+DetectedN@{Wall\+DetectedN}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Wall\+DetectedN}{WallDetectedN}}
+{\footnotesize\ttfamily int fp\+::\+Maze\+::\+Wall\+DetectedN\mbox{[}16\mbox{]}\mbox{[}16\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+a matrix to check wether wall detected in north direction \mbox{\Hypertarget{classfp_1_1_maze_a856f8a1002fdad16684454cb6006646a}\label{classfp_1_1_maze_a856f8a1002fdad16684454cb6006646a}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Wall\+DetectedS@{Wall\+DetectedS}}
+\index{Wall\+DetectedS@{Wall\+DetectedS}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Wall\+DetectedS}{WallDetectedS}}
+{\footnotesize\ttfamily int fp\+::\+Maze\+::\+Wall\+DetectedS\mbox{[}16\mbox{]}\mbox{[}16\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+a matrix to check wether wall detected in south direction \mbox{\Hypertarget{classfp_1_1_maze_ad93e8c8272e3b2f9f693238a95dc38c1}\label{classfp_1_1_maze_ad93e8c8272e3b2f9f693238a95dc38c1}} 
+\index{fp\+::\+Maze@{fp\+::\+Maze}!Wall\+DetectedW@{Wall\+DetectedW}}
+\index{Wall\+DetectedW@{Wall\+DetectedW}!fp\+::\+Maze@{fp\+::\+Maze}}
+\subsubsection{\texorpdfstring{Wall\+DetectedW}{WallDetectedW}}
+{\footnotesize\ttfamily int fp\+::\+Maze\+::\+Wall\+DetectedW\mbox{[}16\mbox{]}\mbox{[}16\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+a matrix to check wether wall detected in west direction 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Maze/\hyperlink{_m_a_z_e_8h}{M\+A\+Z\+E.\+h}\item 
+src/\+Maze/\hyperlink{_m_a_z_e_8cpp}{M\+A\+Z\+E.\+cpp}\end{DoxyCompactItemize}

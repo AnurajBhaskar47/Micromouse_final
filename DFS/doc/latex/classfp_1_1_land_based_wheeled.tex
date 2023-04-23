@@ -1,0 +1,313 @@
+\hypertarget{classfp_1_1_land_based_wheeled}{}\section{fp\+:\+:Land\+Based\+Wheeled Class Reference}
+\label{classfp_1_1_land_based_wheeled}\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+
+
+A Landbased\+Wheeled class..  
+
+
+
+
+{\ttfamily \#include $<$Land\+Based\+Wheeled.\+h$>$}
+
+
+
+Inheritance diagram for fp\+:\+:Land\+Based\+Wheeled\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classfp_1_1_land_based_wheeled__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fp\+:\+:Land\+Based\+Wheeled\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classfp_1_1_land_based_wheeled__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfp_1_1_land_based_wheeled_ad2b73f9998381dafa6b4a0388acfc28c}{Land\+Based\+Wheeled} (std\+::string name, int x, int y)
+\item 
+\hyperlink{classfp_1_1_land_based_wheeled_a83884c16bfa5a6153958fd75d509123b}{Land\+Based\+Wheeled} ()
+\item 
+virtual \hyperlink{classfp_1_1_land_based_wheeled_a87d1d6bf36315ef9dbc79750a968fa2e}{$\sim$\+Land\+Based\+Wheeled} ()
+\item 
+void \hyperlink{classfp_1_1_land_based_wheeled_a8fc1115e4c49fec71b38a520df4d1528}{Speed\+Up} (int)
+\begin{DoxyCompactList}\small\item\em This function works for Speed\+Up for wheeled robot. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classfp_1_1_land_based_wheeled_af7875b805655b6f654e49a885f31122a}{Move\+Forward} () override
+\item 
+virtual void \hyperlink{classfp_1_1_land_based_wheeled_a2f2434db907aaef26b8f3084e84b3579}{Turn\+Left} (int, int) override
+\begin{DoxyCompactList}\small\item\em This function works for Turnleft for wheeled robot. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classfp_1_1_land_based_wheeled_ac6e93b00e624e281a497e99729db04e7}{Turn\+Right} (int, int) override
+\begin{DoxyCompactList}\small\item\em This function works for Turn\+Right for wheeled robot. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classfp_1_1_land_based_wheeled_a75cb4df0270397db3a019f1abc694cf9}{get\+\_\+x} () override
+\begin{DoxyCompactList}\small\item\em This function works as getter for x coordinate. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classfp_1_1_land_based_wheeled_ae793757fd11ba270a6d9c335acb8cafd}{get\+\_\+y} () override
+\begin{DoxyCompactList}\small\item\em This function works as getter for y coordinate. \end{DoxyCompactList}\item 
+virtual char \hyperlink{classfp_1_1_land_based_wheeled_a87c986392b37f25dd63e03866c2ab9c2}{Get\+Direction} () override
+\begin{DoxyCompactList}\small\item\em This function get direction of the robot. \end{DoxyCompactList}\item 
+double \hyperlink{classfp_1_1_land_based_wheeled_ab687789dad29fe8178ed1e60bd79500f}{get\+\_\+speed} ()
+\begin{DoxyCompactList}\small\item\em This function get direction of the robot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classfp_1_1_land_based_wheeled_ac50206eb412222a4d3c8f494c5dbd09b}{wheel\+\_\+number}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Landbased\+Wheeled class.. 
+
+This class is derived from from the \hyperlink{classfp_1_1_land_based_robot}{Land\+Based\+Robot} base class and it has access to every member function of base class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_ad2b73f9998381dafa6b4a0388acfc28c}\label{classfp_1_1_land_based_wheeled_ad2b73f9998381dafa6b4a0388acfc28c}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Land\+Based\+Wheeled@{Land\+Based\+Wheeled}}
+\index{Land\+Based\+Wheeled@{Land\+Based\+Wheeled}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Land\+Based\+Wheeled()}{LandBasedWheeled()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily fp\+::\+Land\+Based\+Wheeled\+::\+Land\+Based\+Wheeled (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+A constructor. A constructor which takes name and x and y as an argument.
+
+A constructor. A constructor which takes name, x, and y as arguments and sets these parameters. \mbox{\Hypertarget{classfp_1_1_land_based_wheeled_a83884c16bfa5a6153958fd75d509123b}\label{classfp_1_1_land_based_wheeled_a83884c16bfa5a6153958fd75d509123b}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Land\+Based\+Wheeled@{Land\+Based\+Wheeled}}
+\index{Land\+Based\+Wheeled@{Land\+Based\+Wheeled}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Land\+Based\+Wheeled()}{LandBasedWheeled()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily fp\+::\+Land\+Based\+Wheeled\+::\+Land\+Based\+Wheeled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A constructor. A constructor with no arguments.
+
+A constructor. A constructor which takes no arguments and initializes name to none and x \& y to 0. \mbox{\Hypertarget{classfp_1_1_land_based_wheeled_a87d1d6bf36315ef9dbc79750a968fa2e}\label{classfp_1_1_land_based_wheeled_a87d1d6bf36315ef9dbc79750a968fa2e}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!````~Land\+Based\+Wheeled@{$\sim$\+Land\+Based\+Wheeled}}
+\index{````~Land\+Based\+Wheeled@{$\sim$\+Land\+Based\+Wheeled}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{$\sim$\+Land\+Based\+Wheeled()}{~LandBasedWheeled()}}
+{\footnotesize\ttfamily fp\+::\+Land\+Based\+Wheeled\+::$\sim$\+Land\+Based\+Wheeled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+A destructor. This will destroy the object \hyperlink{classfp_1_1_land_based_wheeled}{Land\+Based\+Wheeled} after use 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_ab687789dad29fe8178ed1e60bd79500f}\label{classfp_1_1_land_based_wheeled_ab687789dad29fe8178ed1e60bd79500f}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!get\+\_\+speed@{get\+\_\+speed}}
+\index{get\+\_\+speed@{get\+\_\+speed}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{get\+\_\+speed()}{get\_speed()}}
+{\footnotesize\ttfamily double fp\+::\+Land\+Based\+Wheeled\+::get\+\_\+speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+This function get direction of the robot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_a87c986392b37f25dd63e03866c2ab9c2}{Get\+Direction()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ none R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_wheeled_ab687789dad29fe8178ed1e60bd79500f}{get\+\_\+speed()} is char 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a68844e9c442d1b293945144dc6c6608c}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_a75cb4df0270397db3a019f1abc694cf9}\label{classfp_1_1_land_based_wheeled_a75cb4df0270397db3a019f1abc694cf9}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!get\+\_\+x@{get\+\_\+x}}
+\index{get\+\_\+x@{get\+\_\+x}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{get\+\_\+x()}{get\_x()}}
+{\footnotesize\ttfamily virtual int fp\+::\+Land\+Based\+Wheeled\+::get\+\_\+x (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works as getter for x coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_a75cb4df0270397db3a019f1abc694cf9}{get\+\_\+x()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ void R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_wheeled_a75cb4df0270397db3a019f1abc694cf9}{get\+\_\+x()} is integer. 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a3624c5d041de0987c0103c6b01fa9bc6}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_ae793757fd11ba270a6d9c335acb8cafd}\label{classfp_1_1_land_based_wheeled_ae793757fd11ba270a6d9c335acb8cafd}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!get\+\_\+y@{get\+\_\+y}}
+\index{get\+\_\+y@{get\+\_\+y}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{get\+\_\+y()}{get\_y()}}
+{\footnotesize\ttfamily virtual int fp\+::\+Land\+Based\+Wheeled\+::get\+\_\+y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works as getter for y coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_ae793757fd11ba270a6d9c335acb8cafd}{get\+\_\+y()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ void R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_wheeled_ae793757fd11ba270a6d9c335acb8cafd}{get\+\_\+y()} is integer. 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_ae742797bee07ac5b92bfe934cbfed6e9}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_a87c986392b37f25dd63e03866c2ab9c2}\label{classfp_1_1_land_based_wheeled_a87c986392b37f25dd63e03866c2ab9c2}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Get\+Direction@{Get\+Direction}}
+\index{Get\+Direction@{Get\+Direction}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Get\+Direction()}{GetDirection()}}
+{\footnotesize\ttfamily virtual char fp\+::\+Land\+Based\+Wheeled\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function get direction of the robot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_a87c986392b37f25dd63e03866c2ab9c2}{Get\+Direction()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ none R\+E\+T\+U\+RN T\+Y\+PE OF get\+\_\+direction() is char 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a50841b6e40d4e92832770d26b427fea2}{fp\+::\+Land\+Based\+Robot}.
+
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_af7875b805655b6f654e49a885f31122a}\label{classfp_1_1_land_based_wheeled_af7875b805655b6f654e49a885f31122a}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Move\+Forward@{Move\+Forward}}
+\index{Move\+Forward@{Move\+Forward}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Move\+Forward()}{MoveForward()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Wheeled\+::\+Move\+Forward (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a5df828c5d6c1f7fb4c7b68f53d9c6080}{fp\+::\+Land\+Based\+Robot}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classfp_1_1_land_based_wheeled_af7875b805655b6f654e49a885f31122a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_a8fc1115e4c49fec71b38a520df4d1528}\label{classfp_1_1_land_based_wheeled_a8fc1115e4c49fec71b38a520df4d1528}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Speed\+Up@{Speed\+Up}}
+\index{Speed\+Up@{Speed\+Up}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Speed\+Up()}{SpeedUp()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Wheeled\+::\+Speed\+Up (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+This function works for Speed\+Up for wheeled robot. 
+
+This will just ouput that appropriate function are called or not.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_a8fc1115e4c49fec71b38a520df4d1528}{Speed\+Up()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ integer R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_wheeled_a8fc1115e4c49fec71b38a520df4d1528}{Speed\+Up()} is void.\hypertarget{main_8cpp_Description}{}\subsection{Description}\label{main_8cpp_Description}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ Speedup F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ integer \mbox{\Hypertarget{classfp_1_1_land_based_wheeled_a2f2434db907aaef26b8f3084e84b3579}\label{classfp_1_1_land_based_wheeled_a2f2434db907aaef26b8f3084e84b3579}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Turn\+Left@{Turn\+Left}}
+\index{Turn\+Left@{Turn\+Left}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Turn\+Left()}{TurnLeft()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Wheeled\+::\+Turn\+Left (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works for Turnleft for wheeled robot. 
+
+This will just ouput that appropriate function are called or not.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_a2f2434db907aaef26b8f3084e84b3579}{Turn\+Left()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ integers R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_wheeled_a2f2434db907aaef26b8f3084e84b3579}{Turn\+Left()} is void.\hypertarget{main_8cpp_Description}{}\subsection{Description}\label{main_8cpp_Description}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ Turn\+Left F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ two integers 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a359e1012e9093475b7a1b0d38e41a118}{fp\+::\+Land\+Based\+Robot}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classfp_1_1_land_based_wheeled_a2f2434db907aaef26b8f3084e84b3579_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_ac6e93b00e624e281a497e99729db04e7}\label{classfp_1_1_land_based_wheeled_ac6e93b00e624e281a497e99729db04e7}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!Turn\+Right@{Turn\+Right}}
+\index{Turn\+Right@{Turn\+Right}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{Turn\+Right()}{TurnRight()}}
+{\footnotesize\ttfamily void fp\+::\+Land\+Based\+Wheeled\+::\+Turn\+Right (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This function works for Turn\+Right for wheeled robot. 
+
+This will just ouput that appropriate function are called or not.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ \hyperlink{classfp_1_1_land_based_wheeled_ac6e93b00e624e281a497e99729db04e7}{Turn\+Right()} F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ integers R\+E\+T\+U\+RN T\+Y\+PE OF \hyperlink{classfp_1_1_land_based_wheeled_ac6e93b00e624e281a497e99729db04e7}{Turn\+Right()} is void.\hypertarget{main_8cpp_Description}{}\subsection{Description}\label{main_8cpp_Description}
+F\+U\+N\+C\+T\+I\+ON N\+A\+ME -\/ Turn\+Right F\+U\+N\+C\+T\+I\+ON P\+A\+R\+A\+M\+E\+T\+ER T\+Y\+PE -\/ two integers 
+
+Implements \hyperlink{classfp_1_1_land_based_robot_a7360e4084bc5254f72ab0d3612644907}{fp\+::\+Land\+Based\+Robot}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classfp_1_1_land_based_wheeled_ac6e93b00e624e281a497e99729db04e7_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classfp_1_1_land_based_wheeled_ac50206eb412222a4d3c8f494c5dbd09b}\label{classfp_1_1_land_based_wheeled_ac50206eb412222a4d3c8f494c5dbd09b}} 
+\index{fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}!wheel\+\_\+number@{wheel\+\_\+number}}
+\index{wheel\+\_\+number@{wheel\+\_\+number}!fp\+::\+Land\+Based\+Wheeled@{fp\+::\+Land\+Based\+Wheeled}}
+\subsubsection{\texorpdfstring{wheel\+\_\+number}{wheel\_number}}
+{\footnotesize\ttfamily int fp\+::\+Land\+Based\+Wheeled\+::wheel\+\_\+number\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Land\+Based\+Wheeled/\hyperlink{_land_based_wheeled_8h}{Land\+Based\+Wheeled.\+h}\item 
+src/\+Land\+Based\+Wheeled/\hyperlink{_land_based_wheeled_8cpp}{Land\+Based\+Wheeled.\+cpp}\end{DoxyCompactItemize}

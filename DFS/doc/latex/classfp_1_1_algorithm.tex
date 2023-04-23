@@ -1,0 +1,161 @@
+\hypertarget{classfp_1_1_algorithm}{}\section{fp\+:\+:Algorithm Class Reference}
+\label{classfp_1_1_algorithm}\index{fp\+::\+Algorithm@{fp\+::\+Algorithm}}
+
+
+{\ttfamily \#include $<$Algorithm.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classfp_1_1_algorithm_aa7083be9be18b81bedf9bcc9976e97af}{if\+\_\+visited} (std\+::pair$<$ std\+::pair$<$ int, int $>$, char $>$ new\+\_\+node)
+\begin{DoxyCompactList}\small\item\em a function to check wether we have visited nodes or not. \end{DoxyCompactList}\item 
+bool \hyperlink{classfp_1_1_algorithm_a92571327e87248eb1afc706d571e47e0}{if\+\_\+duplicated} (std\+::pair$<$ std\+::pair$<$ int, int $>$, char $>$ new\+\_\+state)
+\begin{DoxyCompactList}\small\item\em a function to check wether we have duplicate state in new node \end{DoxyCompactList}\item 
+bool \hyperlink{classfp_1_1_algorithm_a2e66300e1507ff3f71d5fbbffede52a3}{Solve} (std\+::shared\+\_\+ptr$<$ \hyperlink{classfp_1_1_land_based_robot}{fp\+::\+Land\+Based\+Robot} $>$, \hyperlink{classfp_1_1_maze}{fp\+::\+Maze} \&)
+\begin{DoxyCompactList}\small\item\em function is the gist of B\+FS \hyperlink{classfp_1_1_algorithm}{Algorithm}. \end{DoxyCompactList}\item 
+bool \hyperlink{classfp_1_1_algorithm_a237fc28eed2899786cd06f4e5a0e7333}{is\+Goal} (int x, int y)
+\begin{DoxyCompactList}\small\item\em a function to check wether we have visited nodes or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Group-\/9-\/\+E\+N\+P\+M809Y 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+03/12/19 
+\end{DoxyDate}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classfp_1_1_algorithm_a92571327e87248eb1afc706d571e47e0}\label{classfp_1_1_algorithm_a92571327e87248eb1afc706d571e47e0}} 
+\index{fp\+::\+Algorithm@{fp\+::\+Algorithm}!if\+\_\+duplicated@{if\+\_\+duplicated}}
+\index{if\+\_\+duplicated@{if\+\_\+duplicated}!fp\+::\+Algorithm@{fp\+::\+Algorithm}}
+\subsubsection{\texorpdfstring{if\+\_\+duplicated()}{if\_duplicated()}}
+{\footnotesize\ttfamily bool fp\+::\+Algorithm\+::if\+\_\+duplicated (\begin{DoxyParamCaption}\item[{std\+::pair$<$ std\+::pair$<$ int, int $>$, char $>$}]{new\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+a function to check wether we have duplicate state in new node 
+
+a function to check wether we are in new or visited state.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & 2-\/D vector of new state \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+A function is basically comparing co-\/ordinates of x-\/y coordinates with previous node to new node and if we have visted then set to false or else set true. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_algorithm_a92571327e87248eb1afc706d571e47e0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_algorithm_aa7083be9be18b81bedf9bcc9976e97af}\label{classfp_1_1_algorithm_aa7083be9be18b81bedf9bcc9976e97af}} 
+\index{fp\+::\+Algorithm@{fp\+::\+Algorithm}!if\+\_\+visited@{if\+\_\+visited}}
+\index{if\+\_\+visited@{if\+\_\+visited}!fp\+::\+Algorithm@{fp\+::\+Algorithm}}
+\subsubsection{\texorpdfstring{if\+\_\+visited()}{if\_visited()}}
+{\footnotesize\ttfamily bool fp\+::\+Algorithm\+::if\+\_\+visited (\begin{DoxyParamCaption}\item[{std\+::pair$<$ std\+::pair$<$ int, int $>$, char $>$}]{new\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+a function to check wether we have visited nodes or not. 
+
+a function to check if we are in new node during visiting or not.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & 2-\/D vector of new state \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+A function is basically comparing co-\/ordinates of x-\/y coordinates with previous nodes array to new node and if we have visted then set to false or else set true. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_algorithm_aa7083be9be18b81bedf9bcc9976e97af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_algorithm_a237fc28eed2899786cd06f4e5a0e7333}\label{classfp_1_1_algorithm_a237fc28eed2899786cd06f4e5a0e7333}} 
+\index{fp\+::\+Algorithm@{fp\+::\+Algorithm}!is\+Goal@{is\+Goal}}
+\index{is\+Goal@{is\+Goal}!fp\+::\+Algorithm@{fp\+::\+Algorithm}}
+\subsubsection{\texorpdfstring{is\+Goal()}{isGoal()}}
+{\footnotesize\ttfamily bool fp\+::\+Algorithm\+::is\+Goal (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+a function to check wether we have visited nodes or not. 
+
+a function to check wether it s goal or not
+
+
+\begin{DoxyParams}{Parameters}
+{\em x-\/ordinate} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+y-\/coordinate 
+\end{DoxyReturn}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+A function is check x-\/y co-\/ordinates and check if we are in middle of maze it is end of game. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_algorithm_a237fc28eed2899786cd06f4e5a0e7333_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfp_1_1_algorithm_a2e66300e1507ff3f71d5fbbffede52a3}\label{classfp_1_1_algorithm_a2e66300e1507ff3f71d5fbbffede52a3}} 
+\index{fp\+::\+Algorithm@{fp\+::\+Algorithm}!Solve@{Solve}}
+\index{Solve@{Solve}!fp\+::\+Algorithm@{fp\+::\+Algorithm}}
+\subsubsection{\texorpdfstring{Solve()}{Solve()}}
+{\footnotesize\ttfamily bool fp\+::\+Algorithm\+::\+Solve (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \hyperlink{classfp_1_1_land_based_robot}{fp\+::\+Land\+Based\+Robot} $>$}]{robot,  }\item[{\hyperlink{classfp_1_1_maze}{fp\+::\+Maze} \&}]{maze }\end{DoxyParamCaption})}
+
+
+
+function is the gist of B\+FS \hyperlink{classfp_1_1_algorithm}{Algorithm}. 
+
+heart of algorithm
+
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em a} & shared pointer of landbased robot class \\
+\hline
+{\em maze} & object \\
+\hline
+\end{DoxyParams}
+\hypertarget{_m_a_z_e_8h_DESCRIPTION}{}\subsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_m_a_z_e_8h_DESCRIPTION}
+This is fairly complex function but mainly we are setting the variable here and then try to push them into a vector we also set a flag which shows wether this process has ended or not. but basically a while condition shows that we will add nodes to current nodes untill we the path is found. The method we see here is basically moves robot from api file and then we check the boudries. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfp_1_1_algorithm_a2e66300e1507ff3f71d5fbbffede52a3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{classfp_1_1_algorithm_a2e66300e1507ff3f71d5fbbffede52a3_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Algorithm/\hyperlink{_algorithm_8h}{Algorithm.\+h}\item 
+src/\+Algorithm/\hyperlink{_algorithm_8cpp}{Algorithm.\+cpp}\end{DoxyCompactItemize}
